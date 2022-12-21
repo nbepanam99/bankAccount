@@ -21,3 +21,6 @@ User Stories
                 In order to check my operations
                 As a bank client
                 I want to see the history (operation, date, amount, balance) of my operations
+
+
+## You can the run the tests or play with CLI class Main.java
