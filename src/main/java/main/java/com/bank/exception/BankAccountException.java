@@ -6,7 +6,4 @@ public class BankAccountException extends  RuntimeException{
         super(message);
     }
 
-    public BankAccountException(String message, Throwable cause) {
-        super(message, cause);
-    }
 }

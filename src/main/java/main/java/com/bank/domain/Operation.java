@@ -7,11 +7,11 @@ import java.util.UUID;
 
 public class Operation {
 
-    private UUID uuid;
-    private EventType type;
-    private LocalDateTime date;
-    private BigDecimal amount;
-    private BigDecimal balance;
+    private final UUID uuid;
+    private final EventType type;
+    private final LocalDateTime date;
+    private final BigDecimal amount;
+    private final BigDecimal balance;
 
     public Operation(EventType deposit, BigDecimal amount, BigDecimal balance) {
         this.uuid = UUID.randomUUID();
@@ -19,26 +19,6 @@ public class Operation {
         this.date = LocalDateTime.now();
         this.amount = amount;
         this.balance = balance;
-    }
-
-    public UUID getUuid() {
-        return uuid;
-    }
-
-    public EventType getType() {
-        return type;
-    }
-
-    public LocalDateTime getDate() {
-        return date;
-    }
-
-    public BigDecimal getAmount() {
-        return amount;
-    }
-
-    public BigDecimal getBalance() {
-        return balance;
     }
 
     @Override
@@ -63,5 +43,25 @@ public class Operation {
                 ", amount=" + amount +
                 ", balance=" + balance +
                 '}';
+    }
+
+    public UUID getUuid() {
+        return uuid;
+    }
+
+    public EventType getType() {
+        return type;
+    }
+
+    public LocalDateTime getDate() {
+        return date;
+    }
+
+    public BigDecimal getAmount() {
+        return amount;
+    }
+
+    public BigDecimal getBalance() {
+        return balance;
     }
 }

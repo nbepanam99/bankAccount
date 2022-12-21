@@ -12,7 +12,7 @@ import static main.java.com.bank.domain.EventType.WITHDRAW;
 public class BankAccount {
 
     private BigDecimal balance;
-    private List<Operation> operations;
+    private final List<Operation> operations;
 
     public BankAccount() {
         operations = new ArrayList<>();

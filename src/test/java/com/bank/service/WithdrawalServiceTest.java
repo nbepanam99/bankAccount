@@ -3,7 +3,6 @@ package com.bank.service;
 import main.java.com.bank.domain.BankAccount;
 import main.java.com.bank.service.DepositService;
 import main.java.com.bank.service.WithdrawalService;
-import main.java.com.bank.usecase.Withdraw;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

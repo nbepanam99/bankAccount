@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 @DisplayName("A Deposit test case")
 public class DepositServiceTest {
 
-    private DepositService depositService = new DepositService();
+    private final DepositService depositService = new DepositService();
 
     @Test
     @DisplayName("Add amount to account")
