@@ -6,6 +6,7 @@ Think of your personal bank account experience. When in doubt, go for the simple
                 · Statement printing
 
 User Stories
+                
                 · US 1:
                 In order to save money
                 As a bank client
